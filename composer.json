@@ -1,0 +1,36 @@
+{
+    "name": "a2insights/car-wash-assets",
+    "description": "This is a part of car wash system",
+    "keywords": [
+        "car-wash"
+    ],
+    "homepage": "https://github.com/a2insights/car-wash-assets",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Atila Silva",
+            "email": "atila.danvi@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^5.8 || ^6.0 || ^7.0 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "A2insights\\CarWashAssets\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "A2insights\\CarWashAssets\\CarWashAssetsServiceProvider"
+            ]
+        }
+    }
+}
